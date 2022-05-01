@@ -1,0 +1,78 @@
+* {
+  color: #d4d2db;
+}
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  padding: 30px;
+  background-color: #150b3e;
+  width: 45%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  height: 60px;
+  width: 60px;
+  font-weight: 700;
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  border-radius: 30px;
+  margin-right: 25px;
+}
+
+.username {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.denomination-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance-text {
+  font-size: 18px;
+  color: #d4d2db;
+  opacity: 0.5;
+}
+
+.balance-amount {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.balance-footer {
+  font-size: 12px;
+}
+
+.withdraw {
+  font-size: 22px;
+  font-weight: 600;
+  color: #d4d2db;
+}
+
+.choose-amount {
+  font-size: 12px;
+  opacity: 0.5;
+}
